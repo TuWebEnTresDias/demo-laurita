@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laurita Cafe de Especialidad y Panaderia en Almagro, Buenos Aires. Cafes de autor, pasteleria artesanal y el mejor ambiente para disfrutar.">
+    <title>LAURITA Cafe de Especialidad & Panaderia | Almagro, Buenos Aires</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <span class="header__logo-text">Laurita</span>
+                <span class="header__logo-subtitle">Cafe de Especialidad & Panaderia</span>
+            </a>
+            
+            <nav class="header__nav" id="mainNav">
+                <a href="#nosotros" class="header__nav-link">Nosotros</a>
+                <a href="#menu" class="header__nav-link">Menu</a>
+                <a href="#especial" class="header__nav-link">Lo Especial</a>
+                <a href="#galeria" class="header__nav-link">Galeria</a>
+                <a href="#testimonios" class="header__nav-link">Opiniones</a>
+                <a href="#contacto" class="header__nav-link header__nav-link--cta">Reservar Mesa</a>
+            </nav>
+            
+            <button class="header__menu-btn" id="menuBtn" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav__container">
+            <a href="#nosotros" class="mobile-nav__link">Nosotros</a>
+            <a href="#menu" class="mobile-nav__link">Menu</a>
+            <a href="#especial" class="mobile-nav__link">Lo Especial</a>
+            <a href="#galeria" class="mobile-nav__link">Galeria</a>
+            <a href="#testimonios" class="mobile-nav__link">Opiniones</a>
+            <a href="#contacto" class="mobile-nav__link mobile-nav__link--cta">Reservar Mesa</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__background">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/d3/94/d0/caption.jpg?w=1000&h=-1&s=1" alt="Desayuno tipico en Laurita" class="hero__image">
+            <div class="hero__overlay"></div>
+        </div>
+        
+        <div class="hero__content">
+            <div class="hero__text-container">
+                <h1 class="hero__title">
+                    <span class="hero__title-accent">El cafe donde el barrio se encuentra</span>
+                    <span class="hero__title-main">Tradicion y especialidad en cada taza</span>
+                </h1>
+                <p class="hero__subtitle">Panaderia artesanal y cafe de especialidad en el corazon de Almagro. Donde cada momento se convierte en un recuerdo.</p>
+                
+                <div class="hero__buttons">
+                    <a href="#menu" class="hero__button hero__button--primary">Explorar Menu</a>
+                    <a href="https://wa.me/5491130174185?text=Hola!%20Me%20gustaria%20hacer%20una%20reserva%20en%20Laurita" target="_blank" class="hero__button hero__button--secondary">Reservar Mesa</a>
+                </div>
+                
+                <div class="hero__rating">
+                    <div class="hero__rating-stars">★★★★½</div>
+                    <span class="hero__rating-text">4.5 estrellas · 116 reseñas en Google</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero__scroll-indicator">
+            <div class="hero__scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="nosotros">
+        <div class="about__container">
+            <div class="about__content">
+                <div class="about__text">
+                    <span class="section-tag">Nuestra Historia</span>
+                    <h2 class="about__title">Mas que un cafe, <span class="about__title-accent">una tradicion barrial</span></h2>
+                    <p class="about__description">Laurita nacio en el corazon de Almagro con una mision simple pero poderosa: combinar la tradicion de la confiteria porteña con la excelencia del cafe de especialidad. Somos ese lugar donde los vecinos se encuentran, donde las familias celebran, y donde cada taza cuenta una historia.</p>
+                    <p class="about__description">Nuestra pasteleria, aunque tiene menos de un año, ya se establecio muy bien en el barrio. Porque calidad y precio no fallan. Cada ingrediente es seleccionado con cuidado, cada receta tiene alma, y cada detalle esta pensado para que te sientas en casa.</p>
+                    
+                    <div class="about__features">
+                        <div class="about__feature">
+                            <div class="about__feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <div class="about__feature-text">
+                                <h3>Cafe de Especialidad</h3>
+                                <p>Tostados artesanales, preparados con precision y pasion por nuestro barista.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about__feature">
+                            <div class="about__feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                                    <path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6z"/>
+                                </svg>
+                            </div>
+                            <div class="about__feature-text">
+                                <h3>Panaderia Artesanal</h3>
+                                <p>Facturas, tartas y tortas elaboradas cada manana con ingredientes premium.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about__feature">
+                            <div class="about__feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <div class="about__feature-text">
+                                <h3>Ambiente Acorde</h3>
+                                <p>Espacios comodos y limpios, perfectos para disfrutar en familia o con amigos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about__image-container">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnGzSyKDQRuhm3GPRVqsgdf3pTI8bXahIL7cq7d8LPAHA3qucxF-ZgYXZSVR2Gcu-Uslv1unFIX75EUj0uCavrPjtGi8I5d4-jj7zxQzUW_2n5ORXUAFBU4gX_sNj2EaMLlkMn2=s1360-w1360-h1020-rw" alt="Fachada de Laurita en Almagro" class="about__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="menu__container">
+            <div class="menu__header">
+                <span class="section-tag">Nuestro Menu</span>
+                <h2 class="menu__title">Sabores que cuentan historias</h2>
+                <p class="menu__subtitle">Cada plato es una obra de arte, cada ingrediente tiene proposito. Descubri lo que hace especial a Laurita.</p>
+            </div>
+            
+            <div class="menu__tabs">
+                <button class="menu__tab menu__tab--active" data-tab="facturas">Facturas</button>
+                <button class="menu__tab" data-tab="tartas">Tartas y Tortas</button>
+                <button class="menu__tab" data-tab="almuerzo">Almuerzo</button>
+                <button class="menu__tab" data-tab="cafes">Cafes de Especialidad</button>
+            </div>
+            
+            <div class="menu__content">
+                <!-- Facturas Tab -->
+                <div class="menu__category menu__category--active" id="facturas">
+                    <div class="menu__grid">
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Bizcochos de Grasa</h3>
+                                <span class="menu__item-price">$4.000</span>
+                            </div>
+                            <p class="menu__item-description">Bizcochos tradicionales argentinos, crujientes por fuera y suaves por dentro. Perfectos para acompanar tu cafe con leche de la manana.</p>
+                        </div>
+                        
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Pepas</h3>
+                                <span class="menu__item-price">$4.000</span>
+                            </div>
+                            <p class="menu__item-description">Con membrillo o dulce de leche artesanal. La combinacion perfecta de texturas y sabores que tetransporta a la infancia.</p>
+                        </div>
+                        
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Palmeritas</h3>
+                                <span class="menu__item-price">$4.000</span>
+                            </div>
+                            <p class="menu__item-description">Azucaradas y crocantes, elaboradas con manteca de primera calidad. Un clasico que nunca falla.</p>
+                        </div>
+                        
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Scones</h3>
+                                <span class="menu__item-price">$4.000</span>
+                            </div>
+                            <p class="menu__item-description">Con fruta o sin fruta, según tu preferencia. Suaves, esponjosos y perfectos para la merienda.</p>
+                        </div>
+                        
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Pepitos</h3>
+                                <span class="menu__item-price">$4.000</span>
+                            </div>
+                            <p class="menu__item-description">Con chips de chocolate belga. Para los amantes del dulce, una tentacion irresistible.</p>
+                        </div>
+                        
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Primavera</h3>
+                                <span class="menu__item-price">$4.000</span>
+                            </div>
+                            <p class="menu__item-description">Hojaldre relleno de membrillo, una combinacion de texturas que deleita el paladar.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu__promo">
+                        <h4 class="menu__promo-title">Promo del Dia</h4>
+                        <p class="menu__promo-text">Cafe con leche + 2 facturas a eleccion por <strong>$5.500</strong></p>
+                        <a href="https://wa.me/5491130174185?text=Hola!%20Quiero%20aprochar%20la%20promo%20del%20dia:%20cafe%20con%20leche%20%2B%202%20facturas" target="_blank" class="menu__promo-button">Ordenar por WhatsApp</a>
+                    </div>
+                </div>
+                
+                <!-- Tartas Tab -->
+                <div class="menu__category" id="tartas">
+                    <div class="menu__grid">
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Torta de Ricota</h3>
+                                <span class="menu__item-price">$16.000</span>
+                            </div>
+                            <p class="menu__item-description">Ricota Garcia de primera calidad, elaborada con una receta tradicional que conquista por su cremosidad y sabor incomparable.</p>
+                        </div>
+                        
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Pastaflora</h3>
+                                <span class="menu__item-price">$8.000</span>
+                            </div>
+                            <p class="menu__item-description">Con membrillo o batata, segun tu preferencia. La masa crocante y el relleno dulce crean una harmonia perfecta.</p>
+                        </div>
+                        
+                        <div class="menu__item menu__item--featured">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Torta Matera</h3>
+                                <span class="menu__item-price">$9.000</span>
+                            </div>
+                            <p class="menu__item-description">Con crema pastelera casera, una torta que te transporta a las mejores confiterias de Buenos Aires.</p>
+                            <span class="menu__item-badge">Imperdible</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Almuerzo Tab -->
+                <div class="menu__category" id="almuerzo">
+                    <div class="menu__grid">
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Pre Pizzas</h3>
+                                <span class="menu__item-price">$3.000</span>
+                            </div>
+                            <p class="menu__item-description">Masa artesanal con tomate triturado, perfectas para picar entre amigos o como entrada antes de tu cafe favorito.</p>
+                        </div>
+                        
+                        <div class="menu__item menu__item--info">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Sandwiches de Miga</h3>
+                                <span class="menu__item-price">Desde $8.000</span>
+                            </div>
+                            <p class="menu__item-description">Enormes, abundantes y riquisimos. Con多种 opciones de relleno, perfectos para un almuerzo rapido o una cena liviana.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cafes Tab -->
+                <div class="menu__category" id="cafes">
+                    <div class="menu__grid">
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Cafe con Leche</h3>
+                                <span class="menu__item-price">$3.500</span>
+                            </div>
+                            <p class="menu__item-description">Nuestra base fundamental, preparado con cafe de especialidad y leche texturizada para una experiencia perfecta.</p>
+                        </div>
+                        
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Cortado</h3>
+                                <span class="menu__item-price">$3.200</span>
+                            </div>
+                            <p class="menu__item-description">Equilibrio perfecto entre cafe y leche, para los que buscan intensidad con suavidad.</p>
+                        </div>
+                        
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Espresso</h3>
+                                <span class="menu__item-price">$2.800</span>
+                            </div>
+                            <p class="menu__item-description">Intenso, aromatico y con cuerpo. Para los verdaderos conocedores del cafe.</p>
+                        </div>
+                        
+                        <div class="menu__item">
+                            <div class="menu__item-header">
+                                <h3 class="menu__item-name">Chocolate Caliente</h3>
+                                <span class="menu__item-price">$4.200</span>
+                            </div>
+                            <p class="menu__item-description">Tostado, cremoso y con ese punto justo de dulzor. Ideal para los dias frios de Buenos Aires.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Section - Chocotorta -->
+    <section class="special" id="especial">
+        <div class="special__container">
+            <div class="special__content">
+                <div class="special__text">
+                    <span class="section-tag">Nuestra Especialidad</span>
+                    <h2 class="special__title">La Chocotorta que conquisto Almagro</h2>
+                    <p class="special__description">No es simplemente una torta, es una experiencia. Nuestra Chocotorta es abundante, con el punto justo de dulce de leche, crema y galletitas. Cada bocado es unalosion de sabores que te hara cerrar los ojos del placer.</p>
+                    
+                    <div class="special__details">
+                        <div class="special__detail">
+                            <span class="special__detail-icon">🥛</span>
+                            <span class="special__detail-text">Dulce de leche casero</span>
+                        </div>
+                        <div class="special__detail">
+                            <span class="special__detail-icon">🧈</span>
+                            <span class="special__detail-text">Crema fresca del dia</span>
+                        </div>
+                        <div class="special__detail">
+                            <span class="special__detail-icon">🍪</span>
+                            <span class="special__detail-text">Galletitas chocolinas</span>
+                        </div>
+                    </div>
+                    
+                    <a href="https://wa.me/549113074185?text=Hola!%20Quiero%20reservar%20una%20Chocotorta%20de%20Laurita" target="_blank" class="special__button">Reservar mi Chocotorta</a>
+                </div>
+                
+                <div class="special__image-container">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRRp2gAONFzV3IFA_pDIxC4_cquUpFjZQpL_mukKb0gJ1fqYyLhZB-ck1qIZnphkMKhYP5vL1_7uv2S8zxayhGOEXGMNyQMsTZEEms7KdZc1XQkF3ze3-NMU7Itg2aXPn05xlw-EbXy2cx=s1360-w1360-h1020-rw" alt="Nuestra famosa Chocotorta" class="special__image">
+                    <div class="special__price-tag">
+                        <span class="special__price">$18.000</span>
+                        <span class="special__price-sub">por porcion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="galeria">
+        <div class="gallery__container">
+            <div class="gallery__header">
+                <span class="section-tag">Nuestro Espacio</span>
+                <h2 class="gallery__title">Un vistazo a Laurita</h2>
+                <p class="gallery__subtitle">Descubri la atmosfera, los detalles y los momentos que hacen especial a nuestro cafe.</p>
+            </div>
+            
+            <div class="gallery__grid">
+                <div class="gallery__item gallery__item--large">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmGLs9efBkHw35Dcd3phEQZvfNEYlRNlWQQw3nGBDX4mJyGbYEtvDPUIhObkA12sMQQSnlzE98RBT11X04gETAr7VNNHAOuwMokXj40ToTR1FjDwR2n-__1dGa7olKf2kgm2HlSPFJxBHtQ=s1360-w1360-h1020-rw" alt="Interior de Laurita" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <span class="gallery__overlay-text">Nuestro espacio interior</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/d3/95/31/caption.jpg?w=1000&h=-1&s=1" alt="Zona de tortas" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <span class="gallery__overlay-text">Zona de tortas</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlUK_28XMDhwarFIiuoUPZthJtNXNheWUpz3G1cOKIsX0O-mgiRIm4-j4qmhawenOxnMcXVdI3zgD0Nd49WhrlHD-sgDvZVGQ8ge5-45nVqgH1O-PzMGdNxuLOZm2v4p4H9FV-Bdg=s1360-w1360-h1020-rw" alt="Mesas y ambiente" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <span class="gallery__overlay-text">Ambiente acogedor</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlg7LT5E3gy49S7B7p2HxrrBg6QP4gs3ynLZ5uxgrfilPftrRy0h19w6yFk2otDITNVM83XgDeAqe6d-deubOiXzfWlLrou8mQa1DrgUo5-PdgQreG4Oc-u3GJZ6Lkrwj6bWdMCilmPxcs=s1360-w1360-h1020-rw" alt="Tartas artesanales" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <span class="gallery__overlay-text">Nuestras tartas</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item gallery__item--tall">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmz6qnkMffavLh93Qp2dTu8iEnV7hyflIkG7A6bV0CEaccabWFCQ5FMatJxAtgCVX1dg0mqEkkxMf2Uun08YSiExk0PodJ9i4mdltvzA88rbg8hs6KaDqnbdciHQ7GHrM2czKJQBd7wJsSP=s1360-w1360-h1020-rw" alt="Cafe con leche y tostadas" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <span class="gallery__overlay-text">Desayuno perfecto</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnuDFNX-bxsL7fHY6avUcR1Vbo3jw4mMBNlWzmOgbJEWDEJ0eW4BL9STtqFIjk9IVsxqhyCGNwpCnjeACntRhzaK3vGiAXqVy55HVh7-Q_T4gQnthP2rgJ93-pi0hQ3WotyjN8P7IFzmYmb=s1360-w1360-h1020-rw" alt="Cliente con su perro" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <span class="gallery__overlay-text">Aceptamos mascotas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonios">
+        <div class="testimonials__container">
+            <div class="testimonials__header">
+                <span class="section-tag">Opiniones</span>
+                <h2 class="testimonials__title">Lo que dicen nuestros vecinos</h2>
+                <div class="testimonials__rating">
+                    <div class="testimonials__rating-stars">★★★★½</div>
+                    <span class="testimonials__rating-text">4.5 estrellas basado en 116 reseñas de Google</span>
+                </div>
+            </div>
+            
+            <div class="testimonials__grid">
+                <div class="testimonials__card">
+                    <div class="testimonials__card-header">
+                        <div class="testimonials__avatar">MG</div>
+                        <div class="testimonials__info">
+                            <h4 class="testimonials__name">Maria G.</h4>
+                            <div class="testimonials__stars">★★★★★</div>
+                        </div>
+                        <span class="testimonials__date">hace 2 semanas</span>
+                    </div>
+                    <p class="testimonials__text">"Excelente calidad, precio y abundancia. Los sandwiches de miga son enormes y riquisimos, las porciones de torta gigantes y a buen precio. Todo lo que pedimos (foto completa) salio $28.000. La verdad, recomiendo totalmente."</p>
+                    <span class="testimonials__source">Google Reviews</span>
+                </div>
+                
+                <div class="testimonials__card">
+                    <div class="testimonials__card-header">
+                        <div class="testimonials__avatar">CR</div>
+                        <div class="testimonials__info">
+                            <h4 class="testimonials__name">Carlos R.</h4>
+                            <div class="testimonials__stars">★★★★★</div>
+                        </div>
+                        <span class="testimonials__date">hace 1 mes</span>
+                    </div>
+                    <p class="testimonials__text">"Fuimos con mi familia por primera vez y compramos el cheesecake de frutilla mediano. Cumplio todas las expectativas, muy rico. El local es completo, muy comodo por dentro, y los precios bastante bien. Creia que iba a estar mas caro."</p>
+                    <span class="testimonials__source">Google Reviews</span>
+                </div>
+                
+                <div class="testimonials__card">
+                    <div class="testimonials__card-header">
+                        <div class="testimonials__avatar">LP</div>
+                        <div class="testimonials__info">
+                            <h4 class="testimonials__name">Laura P.</h4>
+                            <div class="testimonials__stars">★★★★★</div>
+                        </div>
+                        <span class="testimonials__date">hace 3 semanas</span>
+                    </div>
+                    <p class="testimonials__text">"Una panaderia con muchas opciones. Tiene mesas para consumir alli y tomar cafe de especialidad. La propuesta me gusto bastante, ya que tienen ricas facturas para merendar. Pedimos la promo de cafe con 2 facturas y el precio estaba muy bien."</p>
+                    <span class="testimonials__source">Google Reviews</span>
+                </div>
+                
+                <div class="testimonials__card">
+                    <div class="testimonials__card-header">
+                        <div class="testimonials__avatar">AM</div>
+                        <div class="testimonials__info">
+                            <h4 class="testimonials__name">Andres M.</h4>
+                            <div class="testimonials__stars">★★★★½</div>
+                        </div>
+                        <span class="testimonials__date">hace 1 semana</span>
+                    </div>
+                    <p class="testimonials__text">"Perfecta comodidad en cuanto al espacio y limpieza. El cafe es excelente, calidad y precio adecuado. Los diseños del barista impecables. La Chocotorta es abundante y al punto justo. Vajilla perfecta para fotos y videos."</p>
+                    <span class="testimonials__source">Google Reviews</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Moments Section -->
+    <section class="moments" id="momentos">
+        <div class="moments__container">
+            <div class="moments__header">
+                <span class="section-tag">Momentos</span>
+                <h2 class="moments__title">Tu momento favorito te espera</h2>
+            </div>
+            
+            <div class="moments__grid">
+                <div class="moments__card">
+                    <div class="moments__image-container">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmz6qnkMffavLh93Qp2dTu8iEnV7hyflIkG7A6bV0CEaccabWFCQ5FMatJxAtgCVX1dg0mqEkkxMf2Uun08YSiExk0PodJ9i4mdltvzA88rbg8hs6KaDqnbdciHQ7GHrM2czKJQBd7wJsSP=s1360-w1360-h1020-rw" alt="Desayuno en Laurita" class="moments__image">
+                    </div>
+                    <div class="moments__content">
+                        <span class="moments__time">7:30 - 11:00</span>
+                        <h3 class="moments__title-card">El Desayuno Perfecto</h3>
+                        <p class="moments__description">Arranca el dia con un cafe de especialidad y facturas recien horneadas. El aroma a panaderia fresca te envuelve mientras el barrio despierta.</p>
+                        <div class="moments__features">
+                            <span class="moments__feature">☕ Cafe recien hecho</span>
+                            <span class="moments__feature">🥐 Facturas calientes</span>
+                            <span class="moments__feature">📰 Ambiente tranquilo</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="moments__card">
+                    <div class="moments__image-container">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmGLs9efBkHw35Dcd3phEQZvfNEYlRNlWQQw3nGBDX4mJyGbYEtvDPUIhObkA12sMQQSnlzE98RBT11X04gETAr7VNNHAOuwMokXj40ToTR1FjDwR2n-__1dGa7olKf2kgm2HlSPFJxBHtQ=s1360-w1360-h1020-rw" alt="Merienda en Laurita" class="moments__image">
+                    </div>
+                    <div class="moments__content">
+                        <span class="moments__time">15:00 - 18:00</span>
+                        <h3 class="moments__title-card">La Merienda del Barrio</h3>
+                        <p class="moments__description">El momento ideal para encontrarte con amigos o disfrutar en familia. Tortas, tartas y el mejor chocolate caliente de la zona.</p>
+                        <div class="moments__features">
+                            <span class="moments__feature">🍰 Tortas artesanales</span>
+                            <span class="moments__feature">🍫 Chocolate caliente</span>
+                            <span class="moments__feature">👩‍👧‍👦 Ambiente familiar</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="moments__card">
+                    <div class="moments__image-container">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnuDFNX-bxsL7fHY6avUcR1Vbo3jw4mMBNlWzmOgbJEWDEJ0eW4BL9STtqFIjk9IVsxqhyCGNwpCnjeACntRhzaK3vGiAXqVy55HVh7-Q_T4gQnthP2rgJ93-pi0hQ3WotyjN8P7IFzmYmb=s1360-w1360-h1020-rw" alt="Trabajo en Laurita" class="moments__image">
+                    </div>
+                    <div class="moments__content">
+                        <span class="moments__time">11:00 - 15:00</span>
+                        <h3 class="moments__title-card">Tu Oficina Favorita</h3>
+                        <p class="moments__description">WiFi gratis, enchufes disponibles y el mejor cafe para acompanar tus horas de trabajo. Un espacio comodo y productivo.</p>
+                        <div class="moments__features">
+                            <span class="moments__feature">📶 WiFi gratis</span>
+                            <span class="moments__feature">🔌 Enchufes</span>
+                            <span class="moments__feature">💻 Ambiente de trabajo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="equipo">
+        <div class="team__container">
+            <div class="team__content">
+                <div class="team__text">
+                    <span class="section-tag">Nuestro Equipo</span>
+                    <h2 class="team__title">Las manos que crean la magia</h2>
+                    <p class="team__description">Detras de cada taza perfecta y cada torta espectacular hay personas apasionadas que aman lo que hacen. Conoce al equipo que hace de Laurita un lugar especial.</p>
+                    
+                    <div class="team__members">
+                        <div class="team__member">
+                            <div class="team__member-avatar">MG</div>
+                            <div class="team__member-info">
+                                <h4 class="team__member-name">Maria Garcia</h4>
+                                <span class="team__member-role">Fundadora & Pastelera Principal</span>
+                                <p class="team__member-bio">La visionaria detras de Laurita. Con 15 años de experiencia en confiteria,Maria combina tradicion familiar con innovacion constante.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team__member">
+                            <div class="team__member-avatar">DL</div>
+                            <div class="team__member-info">
+                                <h4 class="team__member-name">Diego Lopez</h4>
+                                <span class="team__member-role">Barista & Coordinador de Cafe</span>
+                                <p class="team__member-bio">Maestro barista con certificacion SCA. Diego selecciona y tuesta nuestros granos para lograr el perfil de sabor perfecto.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team__member">
+                            <div class="team__member-avatar">SR</div>
+                            <div class="team__member-info">
+                                <h4 class="team__member-name">Sofia Rodriguez</h4>
+                                <span class="team__member-role">Gerente de Atencion al Cliente</span>
+                                <p class="team__member-bio">La sonrisa que te recibe cada manana. Sofia se asegura de que cada visitante se sienta como en casa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team__image-container">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRRp2gAONFzV3IFA_pDIxC4_cquUpFjZQpL_mukKb0gJ1fqYyLhZB-ck1qIZnphkMKhYP5vL1_7uv2S8zxayhGOEXGMNyQMsTZEEms7KdZc1XQkF3ze3-NMU7Itg2aXPn05xlw-EbXy2cx=s1360-w1360-h1020-rw" alt="Equipo de Laurita" class="team__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Press Section -->
+    <section class="press">
+        <div class="press__container">
+            <div class="press__header">
+                <span class="section-tag">Prensa</span>
+                <h2 class="press__title">Lo que dicen de nosotros</h2>
+            </div>
+            
+            <div class="press__grid">
+                <div class="press__card">
+                    <div class="press__quote">"</div>
+                    <p class="press__text">Laurita ha logrado lo que pocas panaderias consiguen: combinar la tradicion de barrio con la calidad de un cafe de especialidad. Un lugar imperdible en Almagro.</p>
+                    <div class="press__source">
+                        <span class="press__source-name">Revista Buenos Aires Gastronomica</span>
+                        <span class="press__source-date">Marzo 2026</span>
+                    </div>
+                </div>
+                
+                <div class="press__card">
+                    <div class="press__quote">"</div>
+                    <p class="press__text">La Chocotorta de Laurita se ha convertido en un icono del barrio. Con su perfecta combinacion de texturas y sabores, redefine lo que una torta puede ser.</p>
+                    <div class="press__source">
+                        <span class="press__source-name">Diario Clarin - Suplemento Gastronomico</span>
+                        <span class="press__source-date">Febrero 2026</span>
+                    </div>
+                </div>
+                
+                <div class="press__card">
+                    <div class="press__quote">"</div>
+                    <p class="press__text">En un mercado dominado por grandes cadenas, Laurita demuestra que la calidad, el precio justo y el trato personal siguen siendo la formula perfecta.</p>
+                    <div class="press__source">
+                        <span class="press__source-name">Portal Infobaer - Economia y Negocios</span>
+                        <span class="press__source-date">Enero 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="contact__container">
+            <div class="contact__content">
+                <div class="contact__text">
+                    <span class="section-tag">Contacto</span>
+                    <h2 class="contact__title">Reserva tu mesa o consulta por nuestros servicios</h2>
+                    <p class="contact__description">Completa el formulario y te contactaremos por WhatsApp. Tambien podes escribirnos directamente para consultas inmediatas.</p>
+                    
+                    <div class="contact__info">
+                        <div class="contact__info-item">
+                            <div class="contact__info-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact__info-text">
+                                <h4>Direccion</h4>
+                                <p>Gascon 1002, C1181ACT<br>Ciudad Autonoma de Buenos Aires</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__info-item">
+                            <div class="contact__info-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact__info-text">
+                                <h4>WhatsApp</h4>
+                                <p><a href="tel:01130174185">011 3017-4185</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__info-item">
+                            <div class="contact__info-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div class="contact__info-text">
+                                <h4>Horarios</h4>
+                                <p>Lunes a Domingo: 7:30 - 20:30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact__form-container">
+                    <form class="contact__form" id="contactForm">
+                        <div class="contact__form-group">
+                            <label for="name">Nombre completo</label>
+                            <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                        </div>
+                        
+                        <div class="contact__form-group">
+                            <label for="phone">Telefono</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Tu numero de telefono">
+                        </div>
+                        
+                        <div class="contact__form-group">
+                            <label for="date">Fecha preferida</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        
+                        <div class="contact__form-group">
+                            <label for="time">Horario preferido</label>
+                            <select id="time" name="time" required>
+                                <option value="">Selecciona un horario</option>
+                                <option value="7:30-9:00">7:30 - 9:00 (Desayuno temprano)</option>
+                                <option value="9:00-11:00">9:00 - 11:00 (Desayuno)</option>
+                                <option value="11:00-13:00">11:00 - 13:00 (Medio dia)</option>
+                                <option value="13:00-15:00">13:00 - 15:00 (Almuerzo)</option>
+                                <option value="15:00-17:00">15:00 - 17:00 (Merienda)</option>
+                                <option value="17:00-19:00">17:00 - 19:00 (Tarde/noche)</option>
+                                <option value="19:00-20:30">19:00 - 20:30 (Ultimo turno)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="contact__form-group">
+                            <label for="guests">Cantidad de personas</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Selecciona cantidad</option>
+                                <option value="1">1 persona</option>
+                                <option value="2">2 personas</option>
+                                <option value="3">3 personas</option>
+                                <option value="4">4 personas</option>
+                                <option value="5">5 personas</option>
+                                <option value="6">6 personas</option>
+                                <option value="7+">7 o mas personas</option>
+                            </select>
+                        </div>
+                        
+                        <div class="contact__form-group">
+                            <label for="message">Mensaje adicional (opcional)</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Alguna solicitud especial, alergias, celebracion..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="contact__form-button">
+                            <span>Enviar por WhatsApp</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="contact__map">
+                <iframe
+                    src="https://maps.google.com/maps?q=Gascon+1002+Almagro+Buenos+Aires&output=embed"
+                    width="100%"
+                    height="350"
+                    style="border:0;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <span class="footer__logo-text">Laurita</span>
+                        <span class="footer__logo-subtitle">Cafe de Especialidad & Panaderia</span>
+                    </div>
+                    <p class="footer__description">Tradicion y calidad en el corazon de Almagro. Tu cafe de especialidad y panaderia de confianza desde 2024.</p>
+                    
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/laurita.panaderia/" target="_blank" class="footer__social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/5491130174185" target="_blank" class="footer__social-link" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__links">
+                    <div class="footer__link-group">
+                        <h4 class="footer__link-title">Navegacion</h4>
+                        <a href="#nosotros" class="footer__link">Nosotros</a>
+                        <a href="#menu" class="footer__link">Menu</a>
+                        <a href="#especial" class="footer__link">Lo Especial</a>
+                        <a href="#galeria" class="footer__link">Galeria</a>
+                        <a href="#testimonios" class="footer__link">Opiniones</a>
+                    </div>
+                    
+                    <div class="footer__link-group">
+                        <h4 class="footer__link-title">Contacto</h4>
+                        <a href="tel:01130174185" class="footer__link">011 3017-4185</a>
+                        <a href="https://wa.me/5491130174185" target="_blank" class="footer__link">WhatsApp Directo</a>
+                        <p class="footer__link footer__link--text">Gascon 1002, Almagro</p>
+                        <p class="footer__link footer__link--text">C1181ACT Buenos Aires</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__hours">
+                <h4 class="footer__hours-title">Horarios de Atencion</h4>
+                <div class="footer__hours-grid">
+                    <div class="footer__hours-day">
+                        <span class="footer__day">Lunes</span>
+                        <span class="footer__time">7:30 - 20:30</span>
+                    </div>
+                    <div class="footer__hours-day">
+                        <span class="footer__day">Martes</span>
+                        <span class="footer__time">7:30 - 20:30</span>
+                    </div>
+                    <div class="footer__hours-day">
+                        <span class="footer__day">Miercoles</span>
+                        <span class="footer__time">7:30 - 20:30</span>
+                    </div>
+                    <div class="footer__hours-day">
+                        <span class="footer__day">Jueves</span>
+                        <span class="footer__time">7:30 - 20:30</span>
+                    </div>
+                    <div class="footer__hours-day">
+                        <span class="footer__day">Viernes</span>
+                        <span class="footer__time">7:30 - 20:30</span>
+                    </div>
+                    <div class="footer__hours-day">
+                        <span class="footer__day">Sabado</span>
+                        <span class="footer__time">7:30 - 20:30</span>
+                    </div>
+                    <div class="footer__hours-day">
+                        <span class="footer__day">Domingo</span>
+                        <span class="footer__time">7:30 - 20:30</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2026 Laurita Cafe de Especialidad & Panaderia. Todos los derechos reservados.</p>
+                <a href="https://tuweben3dias.com" target="_blank" class="footer__credit">Diseñado por tuweben3dias.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5491130174185?text=Hola!%20Me%20gustaria%20hacer%20una%20consulta%20sobre%20Laurita" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+        </svg>
+        <span class="whatsapp-float__text">Escribinos</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
